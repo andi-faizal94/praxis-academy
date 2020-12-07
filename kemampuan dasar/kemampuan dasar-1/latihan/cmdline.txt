@@ -1,0 +1,130 @@
+Latihan 
+1.Open 
+$ open /Applications/Safari.app/
+digunakan untuk membuka safari di browser
+2.pbcopy and pbpaste 
+pbcopy //digunakan untuk membuat suatu copian di commands line atau home directory to the os x clipboard 
+pbpaste //digunakan untuk mempaste suatu halaman 
+    pbcopy
+192:latihan mac$ ls ~ | pbcopy 
+192:latihan mac$ pbcopy < cmdline.txt
+    pbpaste
+192:latihan mac$ pbpaste >> cmdline.txt
+
+3. mdfind
+mdfind //mencari suatu file di komputer anda
+192:~ mac$ mdfind -onlyin ~ latihan
+/Users/mac/Desktop/praxis academy/kemampuan dasar/kemampuan dasar-1/latihan
+/Users/mac/Desktop/praxis-academy/kemampuan dasar/kemampuan dasar-1/latihan
+/Users/mac/Desktop/praxis-academy/kemampuan dasar/kemampuan dasar-2/latihan 2
+/Users/mac/Library/Application Support/Code/logs/20201125T155739/exthost3/output_logging_20201125T161253/2-Git.log
+ 
+4. screencapture 
+$ screencapture -C -M image.png
+mengambil gambar dan disimpan dengan format png
+$ screencapture -c -W
+mengcapture suatu halaman yang ingin anda ambil 
+$ screencapture -T 10 -P a.png 
+mengambil gambar setelah 10 detik dan bisa ditampilkan di preview 
+$ screencapture -s -t pdf image.pdf
+mengambil gambar yang telah di seleksi dengan mouse dan disimpan sebagai pdf 
+
+5. launchctl
+memulai automasi Apache web server di mac:
+$ sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist 
+Launchd scripts are stored in the folllowing loclecations:
+
+~/Library/LaunchAgents    
+/Library/LaunchAgents          
+/Library/LaunchDaemons
+/System/Library/LaunchAgents
+/System/Library/LaunchDaemons
+6. say
+//mengubah tulisan ke percakapan dengan menggunakan voiceover
+//mengungkapkan kalimat dengan menggunakan key say 
+$ say "Never trust a computer you can't lift."
+
+menggunakan say untuk bicara konten dari satu file -f dan audio clip -o 
+$ say -f mynovel.txt -o myaudiobook.aiff
+7. diskutil
+//diskutil dapat menghapus semua data yang ada dan kalimat yang salah 
+192:~ mac$ diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         499.9 GB   disk0s2
+8 . brew 
+//memberikan akses yang mudah dengan utility gratis dan library  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Latihan 
+1.Open 
+$ open /Applications/Safari.app/
+digunakan untuk membuka safari di browser
+2.pbcopy and pbpaste 
+$ ls ~ | pbcopy
+digunakan untuk membuat suatu copian di commands line atau home directory to the os x clipboard 
+$ pbpaste >> tasklist.txt
+digunakan untuk mempaste suatu halaman 
+3. mdfind
+$ mdfind -onlyin ~/Documents essay
+mencari suatu file di komputer anda 
+4. screencapture 
+$ screencapture -C -M image.png
+mengambil gambar dan disimpan dengan format png
+$ screencapture -c -W
+mengcapture suatu halaman yang ingin anda ambil 
+$ screencapture -T 10 -P image.png 
+mengambil gambar setelah 10 detik dan bisa ditampilkan di preview 
+$ screencapture -s -t pdf image.pdf
+mengambil gambar yang telah di seleksi dengan mouse dan disimpan sebagai pdf 
+
+5. launchctl
+memulai automasi Apache web server di mac:
+$ sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist 
+Launchd scripts are stored in the folllowing locations:
+
+~/Library/LaunchAgents    
+/Library/LaunchAgents          
+/Library/LaunchDaemons
+/System/Library/LaunchAgents
+/System/Library/LaunchDaemons
+6. say
+mengubah tulisan ke percakapan dengan menggunakan voiceover
+mengungkapkan kalimat dengan menggunakan key say 
+$ say "Never trust a computer you can't lift."
+
+menggunakan say untuk bicara konten dari satu file -f dan audio clip -o 
+$ say -f mynovel.txt -o myaudiobook.aiff
+7. diskutil
+diskutil dapat menghapus semua data yang ada dan kalimat yang salah 
+8 . brew 
+memberikan akses yang mudah dengan utility gratis dan library  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
