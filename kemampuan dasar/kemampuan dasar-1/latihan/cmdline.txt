@@ -71,54 +71,6 @@ $ say -f mynovel.txt -o myaudiobook.aiff
 
 
 
-Latihan 
-1.Open 
-$ open /Applications/Safari.app/
-digunakan untuk membuka safari di browser
-2.pbcopy and pbpaste 
-$ ls ~ | pbcopy
-digunakan untuk membuat suatu copian di commands line atau home directory to the os x clipboard 
-$ pbpaste >> tasklist.txt
-digunakan untuk mempaste suatu halaman 
-3. mdfind
-$ mdfind -onlyin ~/Documents essay
-mencari suatu file di komputer anda 
-4. screencapture 
-$ screencapture -C -M image.png
-mengambil gambar dan disimpan dengan format png
-$ screencapture -c -W
-mengcapture suatu halaman yang ingin anda ambil 
-$ screencapture -T 10 -P image.png 
-mengambil gambar setelah 10 detik dan bisa ditampilkan di preview 
-$ screencapture -s -t pdf image.pdf
-mengambil gambar yang telah di seleksi dengan mouse dan disimpan sebagai pdf 
-
-5. launchctl
-memulai automasi Apache web server di mac:
-$ sudo launchctl load -w /System/Library/LaunchDaemons/org.apache.httpd.plist 
-Launchd scripts are stored in the folllowing locations:
-
-~/Library/LaunchAgents    
-/Library/LaunchAgents          
-/Library/LaunchDaemons
-/System/Library/LaunchAgents
-/System/Library/LaunchDaemons
-6. say
-mengubah tulisan ke percakapan dengan menggunakan voiceover
-mengungkapkan kalimat dengan menggunakan key say 
-$ say "Never trust a computer you can't lift."
-
-menggunakan say untuk bicara konten dari satu file -f dan audio clip -o 
-$ say -f mynovel.txt -o myaudiobook.aiff
-7. diskutil
-diskutil dapat menghapus semua data yang ada dan kalimat yang salah 
-8 . brew 
-memberikan akses yang mudah dengan utility gratis dan library  
-
-
-
-
-
 
 
 
