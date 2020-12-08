@@ -19,7 +19,7 @@ console.log(a ** b)
 
 // luas lingkaran
 
-console.log("luas lingkaran :", Math.floor(luas))
+console.log("luas lingkaran :", Math.round(luas))
 
 
 console.log(a == b)
