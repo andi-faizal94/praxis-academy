@@ -21,7 +21,7 @@ do {
     console.log(i);
 } while (i < 5);
 
-while statement
+// while statement
 let n = 0;
 let x = 0;
 while (n < 3) {
