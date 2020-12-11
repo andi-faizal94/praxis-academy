@@ -74,3 +74,15 @@ varSize.forEach((value, valueAgain, varSize) => {
 
 varSize.keys(1);
 console.log(varSize.keys(1));
+
+// WeakMap dan WeakSet
+
+
+// date and time
+// new date 
+let desember = new Date();
+console.log(desember);
+let jan10_1994 = new Date(0);
+console.log(jan10_1994);
+let jan11_1994 = new Date(24 * 3600 * 1000);
+console.log(jan11_1994);
