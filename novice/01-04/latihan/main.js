@@ -78,6 +78,9 @@ console.log(varSize.keys(1));
 // WeakMap dan WeakSet
 
 
+
+
+
 // date and time
 // new date 
 let desember = new Date();
