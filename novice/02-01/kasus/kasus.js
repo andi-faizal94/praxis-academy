@@ -20,13 +20,15 @@ function cat(tiredness, hunger, lonliness, happiness) {
         return this.lonliness++;
     }
 
-    if (this.hunger) {
+    if (this.hunger <= 1) {
         console.log('pows realy hungry');
     } else {
         console.log('pow enough')
     };
-    if (this.walk) {
+    if (this.walk <= 1) {
         console.log('paw very happy');
+    } else {
+        console.log('paw is sad')
     }
 
 
