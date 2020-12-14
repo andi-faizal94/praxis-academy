@@ -20,6 +20,15 @@ function cat(tiredness, hunger, lonliness, happiness) {
         return this.lonliness++;
     }
 
+    if (this.hunger) {
+        console.log('pows realy hungry');
+    } else {
+        console.log('pow enough')
+    };
+    if (this.walk) {
+        console.log('paw very happy');
+    }
+
 
     // this.getName = function() {
     //     return "cat is" + " " + this.tiredness + " " + this.hunger + " " + this.lonliness + " " + this.happiness;
