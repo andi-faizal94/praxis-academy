@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>berani salah</h1>
+    <section>
+        <div>
+            <div class="hallo">
+                <p>hallo semua mari belajar bersama pengenalan dom dan cara menggunakannya</p>
+                <p>hallo semua mari belajar bersama pengenalan dom dan cara menggunakannya</p>
+            </div>
+        </div>
+    </section>
+    <input id="hallo" type="text" placeholder="angka">
+    <button>submit</button>
+
+    <script>
+        let baris = document.querySelector('#hallo')
+
+        // get Atribute mengambil nilai dari variable baris yang ada type di dalamnya
+        baris.getAttribute("type")
+
+        var param = document.getElementsByClassName("hallo");
+        param[0];
+        param[1];
+
+        var paraf = document.createElement("p")
+        var teks = document.createTextNode("bagaimana membuat hidup lebih produktif")
+        paraf.appendChild(teks);
+
+
+        var baris1 = document.createElement("p");
+        var hallo = document.createTextNode("bagaimana");
+        baris1.appendChild(hallo)
+
+        const param1 = document.createElement('p')
+    </script>
+
+</body>
+
+</html>
