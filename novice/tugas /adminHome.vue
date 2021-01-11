@@ -1,6 +1,7 @@
 <template>
   <div>
-    <p v-for="(index,u) in ambilNilai" :key="u.name">
+    <!-- penggunaan index selalu di belakang agar tidak error -->
+    <p v-for="(u,index) in ambilNilai" :key="u.name">
       nama :{{u.name}}
       <br />
       alamat :{{u.alamat}}
